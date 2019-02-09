@@ -2,24 +2,21 @@
 	background-image: url("imgs/fundo2.jpg");
 	background-size: cover;
 	height: 700px;
-
-	font-family: 'Roboto Condensed', sans-serif;
-	
-
-}
-
-body{
-
+	font-family: 'Roboto Condensed', sans-serif;	
 }
 .container{
 	padding-top:20px;
- 
+}
+.container-content{
+	padding-top:20px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	margin-top: 100px;
 }
 .container #pc-texto{
 	padding-top: 40px;
-	
 }
-
 .grow:hover
 {
         -webkit-transform: scale(1.3);
@@ -27,16 +24,12 @@ body{
         transform: scale(1.3);
         transition:all 0.3s ease;
 }
-
 .fadeIn {
 -webkit-animation: fadeIn 2s ease-in-out;
 -moz-animation: fadeIn 2s ease-in-out;
 -o-animation: fadeIn 2s ease-in-out;
 animation: fadeIn 2s ease-in-out;
 }
-
-
-
 .menu a{
 	position: relative;
 	display: inline;
@@ -51,8 +44,6 @@ animation: fadeIn 2s ease-in-out;
   -ms-transform: scale(1.23, 1);
 
 }
-
-
 .menu ul li{
 	display: inline;
 	text-decoration: none;
@@ -62,60 +53,62 @@ animation: fadeIn 2s ease-in-out;
 	border-bottom: 2px solid #4dffb8;
 	text-decoration: none;
 }
-
-
 .menu ul li:hover{
 	border: none;
 	color: #4dffb8;
-
 }
-
 #pc{
-  left: 982px;
-  top: 311px;
-  width: 502px;
-  height: 343px;
-  z-index: 16;
-
-
-
+left: 982px;
+top: 311px;
+width: 500px;
+height: 340px;
+z-index: 16;
+margin-left: 25px;
 }
-
+.text-box{
+	margin: 50px 25px 0 0;
+}
 #texto-home{
-	 padding-top: 55px;
-	 padding-right: 65px;
-	 font-size: 50px;
-	 text-align: right;
-	 left: 281.661px;
-  	 top: 313.4px;
-  	 font-style: italic;
-  	 color: #FFF;
-  	  -moz-transform: scale(1.23, 1);
+	position: relative;
+	font-size: 70px;
+	text-align: right;
+  	font-style: italic;
+	color: #FFF;
+	margin-right:25px;
+	-webkit-transform: scale(1.23, 1); 
+	/*
+	-moz-transform: scale(1.23, 1);
   	-webkit-transform: scale(1.23, 1);
-  	-ms-transform: scale(1.23, 1);
-  	
+	-ms-transform: scale(1.23, 1);	
+	*/
 }
+.batalha{
+	font-size: 70px;
+	 color: #fff;
+	 position: relative;
 }
-#batalha{
-	font-size: 50px;
-	 color: #00CC99;
-
+.text-green{
+	color: #00CC99;
 }
-
-#comeca{
-	padding-right: 100px;
+.comeca{
 	text-align: center;
-	font-size: 30px;
+	font-size: 22pt;
+	margin: 10px 0 0 10px;
+	position: relative;
 }
 
-#agora{
-	font-size: 50px;
-	 color: #00CC99;
+.agora{
+	position: relative;
+	font-weight: 700;
+	font-size: 60px;
+	color: #00CC99;
+	display: inline-block;
+	margin-top: -20px;
 }
-
-#exc{
+.exc{
 	margin-top: 25px;
-	font-size: 80px;
+	font-size: 90px;
+	color: #fff;
 }
 
 
