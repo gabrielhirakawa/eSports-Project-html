@@ -12,7 +12,7 @@
 	display: flex;
 	position: relative;
 	justify-content: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .container #pc-texto{
 	padding-top: 40px;
@@ -45,7 +45,7 @@ animation: fadeIn 2s ease-in-out;
 
 }
 .menu ul li{
-	display: inline;
+	display: inline-block;
 	text-decoration: none;
 	color: #fff;
 }
@@ -120,7 +120,7 @@ margin-left: 25px;
 }
 
 .esports-text{
-	font-size: 22pt;
+	font-size: 25pt;
 	color: #ff6600;
 }
 
@@ -137,11 +137,12 @@ margin-left: 25px;
 	background-color: #00CC99;
 }
 
+/*
 #btn-box :hover{
 	border: none;
 	background-color: #006666;
 }
-
+*/
 
 #btn-text{
 	margin-top: 5px;
@@ -171,3 +172,32 @@ margin-left: 25px;
 
 
 
+.toggle{
+	width: 100%;
+	padding: 10px 20px;
+	color: 	#Fff;
+	text-align: right;
+	box-sizing: border-box;	
+	font-size: 	30px;
+	display: none;
+}
+
+@media (max-width: 	768px){
+	.toggle
+	{
+		display: block;
+	}
+	ul{
+	width: 	100%;
+	display: none;
+}
+	ul li{
+		display: 	block !important;
+		text-align: center;
+		position: relative;
+
+	}
+	.active{
+		display: 	block;
+	}
+}

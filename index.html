@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
@@ -15,10 +16,15 @@
 		<div class="container">
 		 	<div class="row">
 		    	<div class="col">
+		    		<a href="index.html">
 		     		<img src="imgs/logo.png" class="grow">
+					</a>	    	
 		    	</div>
 		    	<div class="col">
 		     	 	<div class="menu">
+		     	 		<div class="toggle">
+		     	 			<i class="fas fa-bars menumob"></i>
+		     	 		</div>
 			          <ul>
 			            <a href="#"><li>CONTATO</li></a>
 			            <a href="#"><li>SOBRE</li></a>
@@ -30,12 +36,12 @@
 
 		 <div class="container-content">
 			<div class="text-box">
-					<div id="texto-home"   class="fadeIn">
+					<div id="texto-home"  class="fadeIn">
 						<div class="batalha">A <span class="text-green">BATALHA</span></div>
 						<div class="comeca">COMEÇA</div>
 						<div class="agora">AGORA <span class="exc">!</span> </div>
 						<div id="btn-box">
-							<button id="btn-projeto">
+							<button id="btn-projeto" class="grow">
 								<div><img src="imgs/btn.png" ></div>
 								<div id="btn-text">CONHECER PROJETO</div>
 							</button>
@@ -43,8 +49,8 @@
 					</div>
 			</div>
 
-			<div class="img-computer">
-					<img src="imgs/pc.png" id="pc"   class="fadeIn" >
+			<div class="img-computer" >
+					<img src="imgs/pc.png" id="pc" class="fadeIn" >
 			</div>
 		 </div> <!-- end container-content -->
 
@@ -71,7 +77,15 @@
 
 	</div>
 	
-
+		<script
+  src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.menumob').click(function(){
+  			$('ul').toggleClass('active');
+  		})
+  	})
+  </script>
 
 </body>
 </html>
