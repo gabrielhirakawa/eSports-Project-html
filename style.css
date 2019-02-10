@@ -12,7 +12,7 @@
 	display: flex;
 	position: relative;
 	justify-content: center;
-	margin-top: 100px;
+	margin-top: 30px;
 }
 .container #pc-texto{
 	padding-top: 40px;
@@ -111,6 +111,44 @@ margin-left: 25px;
 	color: #fff;
 }
 
+.texto-rodape{
+	margin-top: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 18pt;
+	font-style: italic;
+}
+
+.esports-text{
+	font-size: 22pt;
+	color: #ff6600;
+}
+
+#btn-projeto{
+	margin-left: 50px;
+	margin-top: 10px;
+	display: flex;
+	position: relative;
+	border: none;
+	padding: 10px;
+	color: #fff;
+	font-size: 18pt;
+	font-style: italic;
+	background-color: #00CC99;
+}
+
+#btn-box :hover{
+	border: none;
+	background-color: #006666;
+}
+
+
+#btn-text{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
 
 @-webkit-keyframes fadeIn {
 0% { opacity: 0; }
@@ -128,6 +166,7 @@ margin-left: 25px;
 0% { opacity: 0; }
 100% { opacity: 1; }
 }
+
 
 
 
